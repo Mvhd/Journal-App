@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/journalViews_batch"/>
+
+    <TextView
+        android:id="@+id/tv_edit_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="74dp"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_edit_48"
+        android:drawableRight="@drawable/ic_edit_48"
+        android:focusable="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="74dp" />
+
+    <TextView
+        android:id="@+id/tv_delete_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="17dp"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_delete_48"
+        android:drawableRight="@drawable/ic_delete_48"
+        android:focusable="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp" />
+
+</RelativeLayout>

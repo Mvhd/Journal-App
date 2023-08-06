@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_textSize">12sp</dimen>
+    <dimen name="et_textSize">16sp</dimen>
+    <dimen name="tv_textSizeHeader">22sp</dimen>
+    <dimen name="tv_textSizeFooter">12sp</dimen>
+    <dimen name="buttonSizeWidth">257dp</dimen>
+    <dimen name="buttonSizeHeight">41dp</dimen>
+    <dimen name="button_textSize">14sp</dimen>
+    <dimen name="et_SizeWidth">257dp</dimen>
+    <dimen name="et_SizeHeight">49dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

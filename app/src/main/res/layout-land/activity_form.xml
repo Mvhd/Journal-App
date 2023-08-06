@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/journo_bg">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparencyseventy"
+        tools:context=".FormActivity">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_fullname"
+            android:layout_width="@dimen/et_SizeWidth"
+            android:layout_height="@dimen/et_SizeHeight"
+            android:layout_marginEnd="108dp"
+            android:layout_marginRight="108dp"
+            android:layout_marginTop="60dp"
+            android:drawableLeft="@drawable/icons_person_30"
+            android:drawableStart="@drawable/icons_person_30"
+            android:ems="10"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="@dimen/et_textSize"
+            app:backgroundTint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_form_email"
+            android:layout_width="@dimen/et_SizeWidth"
+            android:layout_height="@dimen/et_SizeHeight"
+            android:drawableLeft="@drawable/icons_email_30"
+            android:drawableStart="@drawable/icons_email_30"
+            android:ems="10"
+            android:hint="@string/form_email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="@dimen/et_textSize"
+            app:backgroundTint="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="@+id/et_fullname"
+            app:layout_constraintTop_toBottomOf="@+id/et_fullname" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_form_password"
+            android:layout_width="@dimen/et_SizeWidth"
+            android:layout_height="@dimen/et_SizeHeight"
+            android:ems="10"
+            android:hint="@string/form_password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_30px"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/et_textSize"
+            app:backgroundTint="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="@+id/et_form_email"
+            app:layout_constraintTop_toBottomOf="@+id/et_form_email"
+            android:drawableStart="@drawable/ic_lock_30px" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/et_cpassword"
+            android:layout_width="@dimen/et_SizeWidth"
+            android:layout_height="@dimen/et_SizeHeight"
+            android:drawableLeft="@drawable/ic_lock_30px"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            app:backgroundTint="@color/colorWhite"
+            android:textSize="@dimen/et_textSize"
+            app:layout_constraintStart_toStartOf="@+id/et_form_password"
+            app:layout_constraintTop_toBottomOf="@+id/et_form_password"
+            android:drawableStart="@drawable/ic_lock_30px" />
+
+        <Button
+            android:id="@+id/form_button"
+            android:layout_width="@dimen/buttonSizeWidth"
+            android:layout_height="@dimen/buttonSizeHeight"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorAccent"
+            android:text="@string/button"
+            android:textSize="@dimen/button_textSize"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="@+id/et_cpassword"
+            app:layout_constraintTop_toBottomOf="@+id/et_cpassword" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/registration"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/tv_textSizeHeader"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
